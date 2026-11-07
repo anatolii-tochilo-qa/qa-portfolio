@@ -24,6 +24,8 @@
 | AUTH-012 | Login with admin:admin | Authentication error | Username and password do not match any user in this service | PASS |
 | AUTH-013 | Both fields empty | Username is required | Username is required | PASS |
 | AUTH-014 | Username containing spaces only | Authentication must be rejected | Username and password do not match any user in this service | OBSERVATION |
+| AUTH-015 | Logout from standard user account | User is redirected to login page | User was redirected to login page | PASS |
+| AUTH-016 | Access protected page after logout | Access denied for logged-out user | Access denied with authentication error | PASS |
 
 ## 3. Observations
 
