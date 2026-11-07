@@ -2,7 +2,7 @@
 
 Welcome to my QA Engineering portfolio!
 
-I am a QA enthusiast focused on Manual Testing, Web Application Testing, REST API Testing and SQL.
+I am a Manual QA Engineer focused on Manual Testing, Web Application Testing, REST API Testing and SQL.
 
 This repository showcases my practical testing skills, test documentation and approach to identifying and reporting software defects.
 
