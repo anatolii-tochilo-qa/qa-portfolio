@@ -13,15 +13,12 @@
 ### OBS-003 — Unexpected Logout During Shopping Cart Testing
 
 - **Environment:** Windows 10, Chrome 157.0.8103.38 (64-bit)
-- **Occurrences:** 2
-- **Time since login:** Approximately 10 minutes (not confirmed)
 - **Actual Result:** User was redirected to the login page.
 - **Error Message:** Epic sadface: You can only access '/inventory.html' when you are logged in.
-- **Reproducibility:** Observed twice during exploratory testing.
-- **Status:** Needs Investigation
-- **Possible Cause:** Session expiration or session state issue (not confirmed).
 - **Browser Tabs:** One SauceDemo tab
 - **First Occurrence:** Unexpected logout when navigating to the shopping cart
 - **Second Occurrence:** Unexpected logout when navigating from the shopping cart to the product catalog
 - **Session Duration:** Approximately 10 minutes (unconfirmed)
-
+- **Third Occurrence:** Session expired after 10 minutes despite regular navigation between pages.
+- **Hypothesis:** Possible absolute session timeout independent of user activity.
+- **Status:** Reproduced — Requirements Not Confirmed.
