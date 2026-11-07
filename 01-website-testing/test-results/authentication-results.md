@@ -6,7 +6,7 @@
 |---|---|
 | Application | SauceDemo |
 | Operating System | Windows 10 |
-| Browser | Google Chrome 157.0.8103.38 (x64) |
+| Browser | Google Chrome 157.0.8103.38 (64-bit) |
 | Testing Type | Manual Testing |
 | Test Module | Authentication |
 
