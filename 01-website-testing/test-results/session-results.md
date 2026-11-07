@@ -24,6 +24,3 @@
 - **Second Occurrence:** Unexpected logout when navigating from the shopping cart to the product catalog
 - **Session Duration:** Approximately 10 minutes (unconfirmed)
 
-## Planned Tests
-
-- SESSION-002 — Verify session behavior after 20 minutes of inactivity (Not Run)
