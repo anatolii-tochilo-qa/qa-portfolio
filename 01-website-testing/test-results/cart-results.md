@@ -6,3 +6,6 @@
 | CART-002 | Remove Sauce Labs Backpack from cart | Cart is empty; product page displays "Add to cart" | Cart is empty; product page displays "Add to cart" | PASS |
 | CART-003 | Remove Sauce Labs Backpack from product details page | Product is removed from cart; button changes to "Add to cart" | Product was removed from cart; button changed to "Add to cart" | PASS |
 | CART-004 | Add two different products to cart | Cart badge increases from 1 to 2 | Cart badge increased from 1 to 2 | PASS |
+| CART-005 | Add product from product details page | Product is added to cart | Product was successfully added to cart | PASS |
+| CART-006 | Remove product from catalog page | Product is removed from cart | Product was successfully removed from cart | PASS |
+| CART-007 | Add and remove all six available products | All six products can be added and removed | All six products were successfully added and removed | PASS |
