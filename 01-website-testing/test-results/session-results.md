@@ -18,6 +18,10 @@
 - **Reproducibility:** Observed twice during exploratory testing.
 - **Status:** Needs Investigation
 - **Possible Cause:** Session expiration or session state issue (not confirmed).
+- **Browser Tabs:** One SauceDemo tab
+- **First Occurrence:** Unexpected logout when navigating to the shopping cart
+- **Second Occurrence:** Unexpected logout when navigating from the shopping cart to the product catalog
+- **Session Duration:** Approximately 10 minutes (unconfirmed)
 
 ## Planned Tests
 
