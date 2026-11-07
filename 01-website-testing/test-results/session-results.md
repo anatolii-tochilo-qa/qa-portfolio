@@ -5,6 +5,7 @@
 | Test ID | Test Scenario | Expected Result | Actual Result | Status |
 |---|---|---|---|---|
 | SESSION-001 | Open shopping cart immediately after login | Shopping cart opens and user remains authenticated | Shopping cart opened successfully; authentication was preserved | PASS |
+| SESSION-002 | Verify session after 12 minutes of inactivity | Session behavior follows the defined timeout requirements | After 12 minutes of inactivity, navigation triggered a redirect to the login page; no automatic redirect occurred while idle | NEEDS INVESTIGATION |
 
 ## Observations
 
