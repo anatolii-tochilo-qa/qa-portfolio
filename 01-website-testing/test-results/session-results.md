@@ -10,10 +10,9 @@
 
 ### OBS-003 — Unexpected Logout When Opening Shopping Cart
 
-- **Environment:** Windows 10, Google Chrome 157.0.8103.38 (64-bit)
-- **Time since login:** Approximately 15–30 minutes
-- **Actual Result:** Application requested authentication again when navigating to the shopping cart
-- **Reproducibility:** Not reproduced during immediate retry
+- **Reproducibility:** Observed twice during exploratory testing
+- **First occurrence:** Approximately 15–30 minutes after login
+- **Second occurrence:** Approximately 10 minutes after starting SESSION-002, while testing shopping cart functionality
 - **Status:** Needs Investigation
 - **Possible Cause:** Session expiration or session state issue (not confirmed)
 
